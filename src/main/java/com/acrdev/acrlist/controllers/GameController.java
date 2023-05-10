@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.acrdev.acrlist.dto.GameMinDTO;
-import com.acrdev.acrlist.entities.Game;
 import com.acrdev.acrlist.services.GameService;
 
 @RestController
