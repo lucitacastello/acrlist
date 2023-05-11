@@ -19,8 +19,6 @@ public class GameController {
     @Autowired
     private GameService gameService;
 
-    //parei em 56:59
-    //https://www.youtube.com/watch?v=fDcfZ7t4NsA
     @GetMapping(value = "/{id}")
     public GameDTO findById(@PathVariable Long id) {
 
